@@ -130,10 +130,10 @@ Node* CircularList::delete_front()
         return NULL;
     }
 
-    // Step 3. Store the reference to front node as target
+    // Step 3. Otherwise, store the reference to front node as target
     Node* target = last->next;
     
-    // Step 4. Skip the front node and connect the last node directly with next node.
+    // Step 4. Disconnect the front node by directly connecting the last node and the next node.
     last->next = last->next->next;
     
     // Step 5. Delete the target node
@@ -144,10 +144,11 @@ Node* CircularList::delete_front()
 
 bool CircularList::delete_after(Node* prev)
 {
-    // Step 1. Initialize target with the reference to target node
+    // Step 1. Initialize target with the reference to the target node
     Node* target = prev->next;
 
-    // Step 2. Check if the list has single node and return if true.
+    // Step 2. Check if the list has only a single node and return if true
+    // because the delete after is not applicable.
     if (prev == target) {
         return false;
     }
@@ -157,7 +158,7 @@ bool CircularList::delete_after(Node* prev)
     prev->next = target->next;
 
     // Step 4. Check if the target node is the last node. If true,
-    // move the last pointer to previous node
+    // move the last pointer to the previous node
     if (target == last) {
         last = prev;
     }
@@ -195,7 +196,13 @@ bool CircularList::remove(int element)
             Node* target = node->next;
             node->next = node->next->next;
             
-            // Step 5. Delete the target node
+            // Step 5. Check if the target node is the last node. If true,
+            // move the last pointer to the previous node
+            if (target == last) {
+                last = node;
+            }
+
+            // Step 6. Delete the target node
             delete target;
             return true;
         }
