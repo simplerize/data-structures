@@ -217,11 +217,11 @@ void BinarySearchTree::levelorder(Node* p)
 int main()
 {
     /** Create a binary search tree and insert data
-     *           40
+     *           30
      *         /    \
      *        20    50
-     *      /    \
-     *     10    30
+     *       /     /  \
+     *      10   40    60
      */
     BinarySearchTree tree;
     tree.insert(40);
