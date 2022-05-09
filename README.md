@@ -29,4 +29,5 @@ Data Structures tutorial with C++ examples
 ## [Hash Table](https://simplerize.com/data-structures/hash-table-introduction/)
 * [Separate Chaining](https://simplerize.com/data-structures/hash-table-implementation-using-separate-chaining/)
 * [Linear Probing](https://simplerize.com/data-structures/hash-table-using-linear-probing/)
-## Tree
+## [Tree](https://simplerize.com/data-structures/tree-data-structure)
+* [Binary Tree](https://simplerize.com/data-structures/binary-tree)
