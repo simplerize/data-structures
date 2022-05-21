@@ -31,3 +31,5 @@ Data Structures tutorial with C++ examples
 * [Linear Probing](https://simplerize.com/data-structures/hash-table-using-linear-probing/)
 ## [Tree](https://simplerize.com/data-structures/tree-data-structure)
 * [Binary Tree](https://simplerize.com/data-structures/binary-tree)
+* [Binary Search Tree](https://simplerize.com/data-structures/binary-search-tree)
+* [AVL Tree](https://simplerize.com/data-structures/avl-tree)
