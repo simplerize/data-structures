@@ -33,3 +33,5 @@ Data Structures tutorial with C++ examples
 * [Binary Tree](https://simplerize.com/data-structures/binary-tree)
 * [Binary Search Tree](https://simplerize.com/data-structures/binary-search-tree)
 * [AVL Tree](https://simplerize.com/data-structures/avl-tree)
+* [Splay Tree](https://simplerize.com/data-structures/splay-tree)
+* [Heap Tree](https://simplerize.com/data-structures/heap-tree)
