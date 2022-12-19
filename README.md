@@ -10,7 +10,7 @@ Data Structures tutorial with C++ examples by Simplerize
 * [Doubly Linked List](https://simplerize.com/data-structures/doubly-linked-list/)
 * [Circular Singly List](https://simplerize.com/data-structures/circular-singly-linked-list)
 * [Circular Doubly List](https://simplerize.com/data-structures/circular-doubly-linked-list/)
-## [Stack](https://simplerize.com/data-structures/stack-introduction/)
+## [Stack](https://simplerize.com/data-structures/stack-data-structure/)
 * [Array Implementation](https://simplerize.com/data-structures/stack-implementation-using-array/)
 * [List Implementation](https://simplerize.com/data-structures/stack-implementation-using-linked-list/)
 ## [Queue](https://simplerize.com/data-structures/queue-introduction/)
