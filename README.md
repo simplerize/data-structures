@@ -13,7 +13,7 @@ Data Structures tutorial with C++ examples by Simplerize
 ## [Stack](https://simplerize.com/data-structures/stack-data-structure/)
 * [Array Implementation](https://simplerize.com/data-structures/stack-implementation-using-array/)
 * [List Implementation](https://simplerize.com/data-structures/stack-implementation-using-linked-list/)
-## [Queue](https://simplerize.com/data-structures/queue-introduction/)
+## [Queue](https://simplerize.com/data-structures/queue-data-structure/)
 * [Simple Queue](https://simplerize.com/data-structures/simple-queue/)
   * [Array Implementation](https://simplerize.com/data-structures/simple-queue-implementation-using-array/)
   * [List Implementation](https://simplerize.com/data-structures/simple-queue-implementation-using-linked-list/)
